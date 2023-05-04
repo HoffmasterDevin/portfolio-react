@@ -1,20 +1,7 @@
-import './App.css';
 import React from 'react';
+import Container from './pages/Home/Container'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {AboutMe, Contact, Footer, Header, Navigation, Portfolio, Resume,} from './components';
+const App = () =>  <Container />
 
-export default function App() {
-  return (
-      <main>
-    <Header />
-    <Navigation />
-    <AboutMe />
-    <Contact />
-    <Portfolio />
-    <Resume />
-    <Footer />
-      </main>
-
-
-    );
-}
+export default App;
