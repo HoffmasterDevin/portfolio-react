@@ -1,8 +1,6 @@
-// Dependency Injections
 import React from "react";
 import { Card } from "react-bootstrap";
 
-// Create and export AboutMe component, which has my personal information and resume
 export default function AboutMe() {
   return (
     <div>

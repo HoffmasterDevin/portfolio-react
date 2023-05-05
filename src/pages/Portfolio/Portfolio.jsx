@@ -1,6 +1,6 @@
 // Dependency Injections
 import React from "react";
-import Project from "../../components/Project/Project"
+import Project from "../../components/Portfolio/Portfolio"
 import { Container, Row, Col } from "react-bootstrap";
 
 // Create and export main portfolio component, and define the props to be passed into each Project component
